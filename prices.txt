@@ -1,0 +1,13 @@
+Nuka-Cola: 10
+New-Nuka: 13
+Nuka-Cherry: 12
+Nuka-Cola Cranberry: 15
+Nuka-Cola Dark: 15
+Nuka-Grape: 12
+Nuka-Cola Orange: 12
+Nuka-Cola Quantum: 22
+Nuka-Cola Quartz: 15
+Nuka-Cola Victory: 19
+Nuka-Cola Wild: 11
+Nuka-Cola Twist: 15
+Classic Nuka-Cola: 11
