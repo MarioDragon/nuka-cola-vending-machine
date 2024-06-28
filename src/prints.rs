@@ -37,14 +37,17 @@ pub fn print_nuka_cola_machine() -> String {
            nuka_cola_machine                                                                                         
 }
 
-pub fn print_intro() -> String {
-    let intro: String = String::from(
+pub fn print_intro(rand_drinks: Vec<(String, i32)> ) -> String {
+    let intro = format!(
 "\n    ##############################################
     # Select an option for an Ice Cold Nuka Cola #
     ##############################################
-    # 1)                                         #
-    # 2)                                         #
-    # 3)                                         #
-    ##############################################");
+    # 1) {:?}  Quantity: {:?}                 #
+    # 2) {:?}  Quantity: {:?}                 #
+    # 3) {:?}  Quantity: {:?}                 #
+    ##############################################",
+    rand_drinks[0].0, rand_drinks[0].1,
+    rand_drinks[1].0, rand_drinks[1].1,
+    rand_drinks[2].0, rand_drinks[2].1 );
     intro
 }
