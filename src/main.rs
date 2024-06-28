@@ -20,6 +20,8 @@ fn main() {
              */
 
             println!("{}", prints::print_intro(randomly_selected_drinks));
+
+            let mut _menu_option: i32 = utility::handle_menu_select();
             
         }
         Err(err) => {
