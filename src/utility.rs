@@ -16,9 +16,9 @@ pub fn read_items_from_file(filename: &str) -> Result<HashMap<String, i32>, std:
 
     for line in reader.lines() {
         if let Ok(line) = line {
-            if let Some((item, quantity_str)) = line.split_once(": ") {
-                if let Ok(quantity) = quantity_str.parse::<i32>() {
-                    drink_map.insert(item.to_string(), quantity);
+            if let Some((item, price_str)) = line.split_once(": ") {
+                if let Ok(price) = price_str.parse::<i32>() {
+                    drink_map.insert(item.to_string(), price);
                 }
             }
         }

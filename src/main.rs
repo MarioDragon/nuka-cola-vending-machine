@@ -14,8 +14,8 @@ fn main() {
 
             /*
             println!("Randomly selected items:");
-            for (drink, quantity) in randomly_selected_drinks {
-                println!("{}: {}", drink, quantity);
+            for (drink, price) in randomly_selected_drinks {
+                println!("{}: {}", drink, price);
             }
              */
 

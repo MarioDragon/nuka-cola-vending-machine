@@ -42,9 +42,9 @@ pub fn print_intro(rand_drinks: Vec<(String, i32)> ) -> String {
 "\n    ##############################################
     # Select an option for an Ice Cold Nuka Cola #
     ##############################################
-    # 1) {:<20}  Quantity: {:2}      #
-    # 2) {:<20}  Quantity: {:2}      #
-    # 3) {:<20}  Quantity: {:2}      #
+    # 1) {:<20}  Price: ${:2}      #
+    # 2) {:<20}  Price: ${:2}      #
+    # 3) {:<20}  Price: ${:2}      #
     ##############################################",
     rand_drinks[0].0, rand_drinks[0].1,
     rand_drinks[1].0, rand_drinks[1].1,
